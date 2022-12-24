@@ -1,0 +1,22 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <a href="/signout">Signout</a>
+        
+        <br>
+        <br>
+
+        <a href="/show_contacts">View Contacts</a>
+        <a href="/upload">Upload Contacts</a>
+
+        <br><br>
+
+
+        <form method="post" action="/upload" enctype="multipart/form-data">
+            <input type="file" name="fileUpload" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" ID="fileSelect" runat="server" />
+            <button type="submit">Sign In</button>
+        </form>
+    </body>
+</html>

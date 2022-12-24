@@ -1,0 +1,38 @@
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username":"Apoorv"
+}
+
+###
+GET http://localhost:4000/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQXBvb3J2IiwiaWF0IjoxNjcxNzk3MjM1fQ.GuqWr9uDJmvSAMHDm-HSfuBkwT4qR-OXdHG0mjH7_-E
+
+
+###
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "username" : "Apoorv",
+    "email" : "apoorvsingh1120@gmail.com",
+    "password" : "Apoorv"
+}
+
+
+###
+POST http://localhost:3000/signin
+Content-Type: application/json
+
+{
+    "email" : "apoorvsingh1120@gmail.com",
+    "password" : "Apoorv"
+}
+
+###
+GET  http://localhost:3000/check
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFwb29ydnNpbmdoMTEyMEBnbWFpbC5jb20iLCJpZCI6IjYzYTU4NzA1Njc0MzExOTI2MWZiNWZhMSIsImlhdCI6MTY3MTc5ODEwOH0.X4ZtHC39SYHkflcJNMAHRhYUHgbUsTDrcAhtQcAqoW4
+
+###

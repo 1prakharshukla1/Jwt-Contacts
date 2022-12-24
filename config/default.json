@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://apoorv123:apoorv123@cluster0.rsjn0.mongodb.net/Amit_Hiring?retryWrites=true&w=majority",
+    "SECRET_KEY" :"das3hk4h13"
+}
